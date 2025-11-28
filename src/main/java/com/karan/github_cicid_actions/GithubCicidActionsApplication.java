@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class GithubCicidActionsApplication {
     @GetMapping
-    public String sayHello() {
-        return "Hello World!";
+    public String test() {
+        return "Testing github actions and cicd";
     }
 
 	public static void main(String[] args) {
